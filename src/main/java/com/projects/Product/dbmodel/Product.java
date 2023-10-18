@@ -16,10 +16,10 @@ public class Product {
 
     @Id
     @Column(name = "ID", nullable = false)
-    private long productId;
+    private long id;
 
     @Column(name = "NAME", nullable = false) //baska bisey bulabilirisn belki
-    private String productName;
+    private String name;
 
     @Column(name = "QUANTITY", nullable = false)
     private  Integer quantity;
